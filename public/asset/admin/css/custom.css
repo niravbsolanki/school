@@ -1,0 +1,53 @@
+
+/*multiple selection*/
+.select2-container--default .select2-selection--multiple {
+    background-color: #f0f1f3;
+    border: none !important;
+}
+
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+    padding: 4px !important;
+}
+
+/* Add Drop Down select tool */
+/*.select2-selection__rendered {
+    line-height: 50px !important;
+}*/
+.select2-container .select2-selection--single {
+    height: 50px !important;
+}
+.select2-selection__arrow {
+    height: 50px !important;
+}
+.select2-container--bootstrap4 .select2-selection--single .select2-selection__arrow b {
+    top: 0px !important;
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered {
+    color: #3c3a3a !important;
+}
+
+.select2-container--bootstrap4 .select2-selection__clear {
+    display: none;
+    width: 1.2em;
+    height: 1.2em;
+    line-height: 1.15em;
+    padding-left: 5px;
+    margin-top: 16px;
+    border-radius: 100%;
+    background-color: #6c757d;
+    color: #f8f9fa;
+    float: right;
+    margin-right: .3em;
+}
+
+.pseudo-bg-green:after {
+    background-color: #28a745;
+}
+
+.pseudo-bg-sandybrown:after {
+    background-color: #7B68EE;
+}
+.pseudo-bg-rosybrown:after {
+    background-color: #6495ED
+}
